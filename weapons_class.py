@@ -1,5 +1,5 @@
 class Weapon:
 
-    def __init__(self) -> None:
-        self.name = 'lazer'
-        self.attack_power = 15
+    def __init__(self, name, ap) -> None:
+        self.name = name
+        self.attack_power = ap
