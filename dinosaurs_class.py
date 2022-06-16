@@ -1,11 +1,14 @@
 
 
+from random import randint
+
+
 class Dinosaur:
 
     def __init__(self) -> None:
         self.name = 'bones'
-        self.attack_power = 20
-        self.health = 100
+        self.attack_power = randint(20, 30)
+        self.health = randint(85,100)
 
     def attack(self, robot):
         print(f'{self.name} attaks {robot.name} with its powerfull jaws for {self.attack_power}')

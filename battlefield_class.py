@@ -35,7 +35,7 @@ class Battlefield:
     def winner_phase(self):
         if self.dinosaur.health >0:
             print("")
-            print('The dinosaurs broke past your defence and into the prison. \nThey stole the dinosaurs you had captive for fuel.\nWe must take our fule back from the carbon life on this planet')
+            print('The dinosaurs broke past your defence and into the prison. \nThey stole the dinosaurs you had captive for fuel.\nWe must take our fuel back from the carbon life on this planet')
             print('')
         elif self.robot.health >0:
             print('thank you for your sacrafice carbon lifeform your kind will continue to fuel our distruction of the planets')
