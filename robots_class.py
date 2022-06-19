@@ -28,7 +28,7 @@ class Robot:
                 self.active_weapon = Weapon('Fist', 20)
                 weapon_picked = True
             elif weapon_picker == '3':
-                self.active_weapon = Weapon('Big Berhta', randint(1, 99))
+                self.active_weapon = Weapon('Big Berhta', randint(1, 49))
                 weapon_picked = True
             else:
                 print('please type either 1, 2, or 3')

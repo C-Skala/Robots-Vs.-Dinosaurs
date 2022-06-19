@@ -1,3 +1,4 @@
+import imp
 from logging import root
 from random import randint, random
 from dinosaurs_class import Dinosaur
@@ -10,9 +11,9 @@ class Battlefield:
         self.dinosaur = Dinosaur()
 
     def display_welcome(self):
-        print('\nYou and your fellow Replicant guards are standing hold at the entrance of your stronghold')
-        print('Suddenly a group of Dinosaurs charge you!')
-        print('ready your weapons and prepare to be your lands last defence!')
+        print('\nYou are standing hold at the entrance of your stronghold')
+        print('Suddenly a dinosaur charges you!')
+        print('ready your weapon and prepare to be your lands last defence!')
         print('')
 
     def run_game(self):
@@ -35,7 +36,7 @@ class Battlefield:
     def winner_phase(self):
         if self.dinosaur.health >0:
             print("")
-            print('The dinosaurs broke past your defence and into the prison. \nThey stole the dinosaurs you had captive for fuel.\nWe must take our fuel back from the carbon life on this planet')
+            print('The dinosaur broke past your defence and into the prison. \nIt stole the dinosaurs you had captive for fuel.\nWe must take our fuel back from the carbon life on this planet')
             print('')
         elif self.robot.health >0:
             print('thank you for your sacrafice carbon lifeform your kind will continue to fuel our distruction of the planets')
